@@ -10,10 +10,11 @@
 		614F6D171E869DCE004A194B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614F6D161E869DCE004A194B /* AppDelegate.swift */; };
 		614F6D191E869DCE004A194B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614F6D181E869DCE004A194B /* ViewController.swift */; };
 		614F6D1C1E869DCE004A194B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 614F6D1A1E869DCE004A194B /* Main.storyboard */; };
-		614F6D1E1E869DCE004A194B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 614F6D1D1E869DCE004A194B /* Assets.xcassets */; };
 		614F6D211E869DCE004A194B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 614F6D1F1E869DCE004A194B /* LaunchScreen.storyboard */; };
 		614F6D2C1E869DCF004A194B /* FindMyLoveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614F6D2B1E869DCF004A194B /* FindMyLoveTests.swift */; };
 		614F6D371E869DCF004A194B /* FindMyLoveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614F6D361E869DCF004A194B /* FindMyLoveUITests.swift */; };
+		614F6D451E86AA48004A194B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 614F6D441E86AA48004A194B /* Assets.xcassets */; };
+		614F6D471E86AE7D004A194B /* FindMyLoveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614F6D461E86AE7D004A194B /* FindMyLoveViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +39,6 @@
 		614F6D161E869DCE004A194B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		614F6D181E869DCE004A194B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		614F6D1B1E869DCE004A194B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		614F6D1D1E869DCE004A194B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		614F6D201E869DCE004A194B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		614F6D221E869DCE004A194B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		614F6D271E869DCF004A194B /* FindMyLoveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindMyLoveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +47,8 @@
 		614F6D321E869DCF004A194B /* FindMyLoveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindMyLoveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		614F6D361E869DCF004A194B /* FindMyLoveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMyLoveUITests.swift; sourceTree = "<group>"; };
 		614F6D381E869DCF004A194B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		614F6D441E86AA48004A194B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		614F6D461E86AE7D004A194B /* FindMyLoveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindMyLoveViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +102,9 @@
 				614F6D161E869DCE004A194B /* AppDelegate.swift */,
 				614F6D181E869DCE004A194B /* ViewController.swift */,
 				614F6D1A1E869DCE004A194B /* Main.storyboard */,
-				614F6D1D1E869DCE004A194B /* Assets.xcassets */,
+				614F6D461E86AE7D004A194B /* FindMyLoveViewController.swift */,
 				614F6D1F1E869DCE004A194B /* LaunchScreen.storyboard */,
+				614F6D441E86AA48004A194B /* Assets.xcassets */,
 				614F6D221E869DCE004A194B /* Info.plist */,
 			);
 			path = FindMyLove;
@@ -233,7 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				614F6D211E869DCE004A194B /* LaunchScreen.storyboard in Resources */,
-				614F6D1E1E869DCE004A194B /* Assets.xcassets in Resources */,
+				614F6D451E86AA48004A194B /* Assets.xcassets in Resources */,
 				614F6D1C1E869DCE004A194B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +264,7 @@
 			files = (
 				614F6D191E869DCE004A194B /* ViewController.swift in Sources */,
 				614F6D171E869DCE004A194B /* AppDelegate.swift in Sources */,
+				614F6D471E86AE7D004A194B /* FindMyLoveViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

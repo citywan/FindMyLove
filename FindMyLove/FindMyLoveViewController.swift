@@ -11,6 +11,7 @@ import UIKit
 class FindMyLoveViewController: UIViewController {
 
     @IBOutlet weak var nationality: UITextField!
+
     @IBOutlet weak var age: UISlider!
     @IBOutlet weak var holiday: UISegmentedControl!
     @IBOutlet weak var patient: UISwitch!
@@ -23,6 +24,7 @@ class FindMyLoveViewController: UIViewController {
     @IBAction func ageslider(_ sender: Any) {
         agelabel.text = "\(Int(age.value))"
     }
+    
     
     
     @IBAction func match(_ sender: Any) {
